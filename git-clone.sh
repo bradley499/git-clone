@@ -7,7 +7,7 @@ if [[ $# -eq 0 ]]; then
 fi
 
 if [[ $1 == "https://github.com/*" ]]; then
-    git clone git@github.com:${1:19}
+	git clone git@github.com:${1:19}
 else
-    git clone $1
+	git clone $1
 fi
